@@ -63,3 +63,6 @@ jobs:
       #
       - name: Deploy
         run: ./scripts/deploy.sh
+
+      - name: Delete
+        run: ./scripts/delete.sh
