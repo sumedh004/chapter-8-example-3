@@ -30,6 +30,8 @@ jobs:
       REGISTRY_PW: ${{ secrets.REGISTRY_PW  }}
 
     steps:
+      - uses: actions/checkout@v3
+
 
       - uses: tale/kubectl-action@v1
         with:
